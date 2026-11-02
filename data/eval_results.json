@@ -1,0 +1,228 @@
+{
+  "run_at": "2026-10-30T21:52:02+00:00",
+  "mode": {
+    "provider": "none",
+    "model": null,
+    "enabled": false
+  },
+  "n": 14,
+  "accuracy": 0.9285714285714286,
+  "fake_detection": {
+    "tp": 6,
+    "fp": 0,
+    "fn": 1,
+    "tn": 6,
+    "precision": 1.0,
+    "recall": 0.8571428571428571,
+    "f1": 0.923076923076923,
+    "false_positive_rate": 0.0
+  },
+  "abstention_rate": 0.14285714285714285,
+  "accuracy_when_answered": 1.0,
+  "calibration": {
+    "Medium": {
+      "n": 11,
+      "accuracy": 1.0
+    },
+    "High": {
+      "n": 1,
+      "accuracy": 1.0
+    }
+  },
+  "by_language": {
+    "en": {
+      "n": 12,
+      "accuracy": 1.0
+    },
+    "hi": {
+      "n": 2,
+      "accuracy": 0.5
+    }
+  },
+  "confusion": {
+    "Contradicted": {
+      "Contradicted": 5,
+      "Insufficient Evidence": 1
+    },
+    "Insufficient Evidence": {
+      "Insufficient Evidence": 1
+    },
+    "Meaning Altered": {
+      "Meaning Altered": 1
+    },
+    "Supported": {
+      "Supported": 6
+    }
+  },
+  "cases": [
+    {
+      "id": "c01",
+      "lang": "en",
+      "text": "The Great Wall of China is visible from space with the naked eye.",
+      "expected": "Contradicted",
+      "predicted": "Contradicted",
+      "confidence": "Medium",
+      "correct": true,
+      "seconds": 31.2,
+      "support_chains": 2,
+      "contradict_chains": 4
+    },
+    {
+      "id": "c02",
+      "lang": "en",
+      "text": "5G mobile networks spread COVID-19.",
+      "expected": "Contradicted",
+      "predicted": "Contradicted",
+      "confidence": "Medium",
+      "correct": true,
+      "seconds": 16.7,
+      "support_chains": 3,
+      "contradict_chains": 9
+    },
+    {
+      "id": "c03",
+      "lang": "en",
+      "text": "Chandrayaan-3 landed near the south pole of the Moon in August 2023.",
+      "expected": "Supported",
+      "predicted": "Supported",
+      "confidence": "Medium",
+      "correct": true,
+      "seconds": 34.4,
+      "support_chains": 3,
+      "contradict_chains": 0
+    },
+    {
+      "id": "c04",
+      "lang": "en",
+      "text": "The WHO declared COVID-19 a pandemic on 11 March 2020.",
+      "expected": "Supported",
+      "predicted": "Supported",
+      "confidence": "Medium",
+      "correct": true,
+      "seconds": 35.6,
+      "support_chains": 9,
+      "contradict_chains": 0
+    },
+    {
+      "id": "c05",
+      "lang": "en",
+      "text": "The Paris Agreement on climate change was adopted in December 2015.",
+      "expected": "Supported",
+      "predicted": "Supported",
+      "confidence": "Medium",
+      "correct": true,
+      "seconds": 19.0,
+      "support_chains": 4,
+      "contradict_chains": 0
+    },
+    {
+      "id": "c06",
+      "lang": "en",
+      "text": "UNESCO declared Jana Gana Mana the best national anthem in the world.",
+      "expected": "Contradicted",
+      "predicted": "Contradicted",
+      "confidence": "Medium",
+      "correct": true,
+      "seconds": 32.7,
+      "support_chains": 0,
+      "contradict_chains": 5
+    },
+    {
+      "id": "c07",
+      "lang": "en",
+      "text": "The new 2000 rupee note has a GPS nano chip embedded in it.",
+      "expected": "Contradicted",
+      "predicted": "Contradicted",
+      "confidence": "Medium",
+      "correct": true,
+      "seconds": 31.7,
+      "support_chains": 0,
+      "contradict_chains": 2
+    },
+    {
+      "id": "c08",
+      "lang": "en",
+      "text": "Vaccines cause autism.",
+      "expected": "Contradicted",
+      "predicted": "Contradicted",
+      "confidence": "Medium",
+      "correct": true,
+      "seconds": 36.7,
+      "support_chains": 2,
+      "contradict_chains": 7
+    },
+    {
+      "id": "c09",
+      "lang": "en",
+      "text": "Neil Armstrong was the first person to walk on the Moon in 1969.",
+      "expected": "Supported",
+      "predicted": "Supported",
+      "confidence": "Medium",
+      "correct": true,
+      "seconds": 36.1,
+      "support_chains": 5,
+      "contradict_chains": 0
+    },
+    {
+      "id": "c10",
+      "lang": "hi",
+      "text": "चंद्रयान-3 चंद्रमा के दक्षिणी ध्रुव के पास उतरा।",
+      "expected": "Supported",
+      "predicted": "Supported",
+      "confidence": "Medium",
+      "correct": true,
+      "seconds": 34.6,
+      "support_chains": 11,
+      "contradict_chains": 0
+    },
+    {
+      "id": "c11",
+      "lang": "hi",
+      "text": "5G नेटवर्क से कोरोना वायरस फैलता है।",
+      "expected": "Contradicted",
+      "predicted": "Insufficient Evidence",
+      "confidence": "Not applicable",
+      "correct": false,
+      "seconds": 37.9,
+      "support_chains": 4,
+      "contradict_chains": 6
+    },
+    {
+      "id": "c12",
+      "lang": "en",
+      "text": "A secret meeting between two unnamed cabinet ministers took place last night in an undisclosed location.",
+      "expected": "Insufficient Evidence",
+      "predicted": "Insufficient Evidence",
+      "confidence": "Not applicable",
+      "correct": true,
+      "seconds": 31.8,
+      "support_chains": 0,
+      "contradict_chains": 0
+    },
+    {
+      "id": "c13",
+      "lang": "en",
+      "text": "Minister confirms the bridge will collapse.",
+      "expected": "Meaning Altered",
+      "predicted": "Meaning Altered",
+      "confidence": "High",
+      "correct": true,
+      "seconds": 34.3,
+      "support_chains": 0,
+      "contradict_chains": 0
+    },
+    {
+      "id": "c14",
+      "lang": "en",
+      "text": "India overtook China as the world's most populous country in 2023.",
+      "expected": "Supported",
+      "predicted": "Supported",
+      "confidence": "Medium",
+      "correct": true,
+      "seconds": 21.0,
+      "support_chains": 10,
+      "contradict_chains": 0
+    }
+  ],
+  "note": "Small hand-labelled set (see eval/claims_testset.jsonl for references). Live web evidence changes over time, so results vary between runs."
+}

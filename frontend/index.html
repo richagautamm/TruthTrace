@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TruthTrace</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='14' cy='14' r='9' fill='none' stroke='%232563eb' stroke-width='3'/><path d='M21 21l7 7' stroke='%232563eb' stroke-width='3' stroke-linecap='round'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/app.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><circle cx="14" cy="14" r="9" fill="none" stroke="currentColor" stroke-width="3"/><path d="M21 21l7 7" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M9.5 14.5l3 3 6-7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div><b>TruthTrace</b><small>Trace the claim. Check the evidence.</small></div>
+      </div>
+      <nav id="nav" aria-label="Main navigation">
+        <div class="nav-label">Start here</div>
+        <a href="#/verify" data-page="verify">Verify a claim</a>
+        <details class="nav-section" open>
+          <summary>More ways to check</summary>
+          <a href="#/compare" data-page="compare">Compare coverage</a>
+          <a href="#/meaning" data-page="meaning">Check translation</a>
+          <a href="#/evolution" data-page="evolution">Track claim versions</a>
+          <a href="#/media" data-page="media">Check image or video</a>
+        </details>
+        <details class="nav-section">
+          <summary>Explore a story</summary>
+          <a href="#/perspectives" data-page="perspectives">Perspectives</a>
+          <a href="#/opinion" data-page="opinion">Public opinion</a>
+          <a href="#/influencers" data-page="influencers">Public figures</a>
+        </details>
+        <details class="nav-section">
+          <summary>History &amp; system</summary>
+          <a href="#/history" data-page="history">Analysis history</a>
+          <a href="#/sources" data-page="sources">Sources &amp; feedback</a>
+          <a href="#/accuracy" data-page="accuracy">System accuracy</a>
+          <a href="#/method" data-page="method">Method &amp; limits</a>
+        </details>
+      </nav>
+      <div class="ai-badge" id="ai-badge" aria-live="polite">Checking AI model…</div>
+    </aside>
+    <main class="main">
+      <button class="menu-btn" id="menu-btn" aria-label="Menu" aria-expanded="false">☰</button>
+      <div id="page"></div>
+    </main>
+  </div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

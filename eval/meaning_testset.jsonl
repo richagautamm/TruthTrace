@@ -1,0 +1,16 @@
+{"id": "m01", "pair": "en-en", "original": "The leader's stomach looks swollen.", "variant": "The leader became pregnant.", "altered": true}
+{"id": "m02", "pair": "en-en", "original": "The pilot saved 134 lives.", "variant": "The pilot saved 143 lives.", "altered": true}
+{"id": "m03", "pair": "en-en", "original": "The pilot saved 134 lives.", "variant": "134 lives were saved by the pilot, officials said.", "altered": false}
+{"id": "m04", "pair": "en-en", "original": "The minister said the bridge may collapse.", "variant": "Minister confirms the bridge will collapse.", "altered": true}
+{"id": "m05", "pair": "en-en", "original": "The company did not lay off workers.", "variant": "The company laid off workers.", "altered": true}
+{"id": "m06", "pair": "en-en", "original": "The court has reserved its judgment in the case.", "variant": "The court reserved judgment in the case.", "altered": false}
+{"id": "m07", "pair": "en-en", "original": "Prices could rise by 5% next year.", "variant": "Prices will rise by 5% next year.", "altered": true}
+{"id": "m08", "pair": "en-en", "original": "The PM praised the pilots for their courage.", "variant": "The Prime Minister praised the pilots for their courage.", "altered": false}
+{"id": "m09", "pair": "en-en", "original": "Police said two people were injured.", "variant": "Police said 20 people were injured.", "altered": true}
+{"id": "m10", "pair": "en-en", "original": "The singer looks like a ghost in the new video.", "variant": "The singer is a ghost.", "altered": true}
+{"id": "m11", "pair": "hi-en", "original": "प्रधानमंत्री ने कहा कि पायलटों ने 134 लोगों की जान बचाई।", "variant": "The PM said the pilots saved 134 lives.", "altered": false}
+{"id": "m12", "pair": "hi-en", "original": "मंत्री ने कहा कि पुल गिर सकता है।", "variant": "The minister said the bridge has collapsed.", "altered": true}
+{"id": "m13", "pair": "hi-en", "original": "कंपनी ने कर्मचारियों को नहीं निकाला।", "variant": "The company fired its employees.", "altered": true}
+{"id": "m14", "pair": "hi-en", "original": "बारिश के कारण 10 उड़ानें रद्द हुईं।", "variant": "10 flights were cancelled due to rain.", "altered": false}
+{"id": "m15", "pair": "en-hi", "original": "The government may extend the deadline.", "variant": "सरकार ने समय सीमा बढ़ा दी है।", "altered": true}
+{"id": "m16", "pair": "en-hi", "original": "Five people died in the accident.", "variant": "दुर्घटना में पांच लोगों की मौत हो गई।", "altered": false}
